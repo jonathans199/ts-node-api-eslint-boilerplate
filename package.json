@@ -1,0 +1,33 @@
+{
+  "name": "ts-node-api-eslint-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to start Typescript Node API projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch '*.ts'  --watch '*.json' --exec 'ts-node' ./src/index.ts",
+    "build": "tsc ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint:fix": "eslint --fix"
+  },
+  "keywords": ["typescript", "eslint", "prettier", "cors", "dotenv", "nodemon"],
+  "author": "Jonathan Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
