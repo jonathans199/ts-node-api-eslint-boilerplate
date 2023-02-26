@@ -33,8 +33,8 @@ $ npm i
 
 Change the GIT repo pointer to your own repo
 
-```bash
-$ git remote set-url origin   <<Your GIT repository here>>
+```
+$ git remote set-url origin   << Your GIT repository here >>
 ```
 
 ## Then start coding and don't worry about the setup 😎
