@@ -1,5 +1,5 @@
 {
-  "name": "ts-node-api-eslint-boilerplate",
+  "name": "bocacode-intranet-api-typescript",
   "version": "1.0.0",
   "description": "Boilerplate to start Typescript Node API projects",
   "main": "index.js",
