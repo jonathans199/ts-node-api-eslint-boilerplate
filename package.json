@@ -9,12 +9,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint:fix": "eslint --fix"
   },
-  "keywords": ["typescript", "eslint", "prettier", "cors", "dotenv", "nodemon"],
+  "keywords": [
+    "typescript",
+    "eslint",
+    "prettier",
+    "cors",
+    "dotenv",
+    "nodemon"
+  ],
   "author": "Jonathan Sanchez",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^6.10.0",
     "typescript": "^4.9.5"
   },
   "devDependencies": {
